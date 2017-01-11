@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-	jQuery('#ticker1').rssfeed('https://queryfeed.net/twitter?q=from%3Adavithace&geocode=&omit-direct=on&attach=on',{
+	jQuery('#ticker1').rssfeed('https://queryfeed.net/twitter?q=from%3Asbhdkitimur&geocode=&omit-direct=on&attach=on',{
 		snippet: true
 	});
 });	
@@ -1479,28 +1479,28 @@ jQuery(window).load(function(){
 	jQuery('#social-stream').dcSocialStream({
 		feeds: {
 			custom_twitter: {
-				id: 'https://queryfeed.net/twitter?q=from%3Adavithace&geocode=&omit-direct=on&attach=on',
+				id: 'https://queryfeed.net/twitter?q=from%3Asbhdkitimur&geocode=&omit-direct=on&attach=on',
 				intro: 'Tweet',
 				out: 'intro,text,thumb_enc',
 				text: 'contentSnippet',
 				icon: 'twitter.png'
 			},
 			rss: {
-				id: 'http://www.davidprasetyo.com/feeds/posts/default?orderby=published',
+				id: 'http://www.sbhjakartatimur.cf/feeds/posts/default?orderby=published',
 				intro: 'Posted',
 				out: 'intro,blogger_thumb,title,text,share',
 				text: 'contentSnippet',
 				icon: 'rss.png'
 			},
 			custom_facebook: {
-				id: 'http://fbrss.com/feed/6009f36b4453aff3508cd06c4615daeee8b15f0d.xml?me',
+				id: 'https://fbrss.com/feed/c6e6002d5fe3241e86929d3d48e6546d9a17e4b7_1832622267007634.xml?me',
 				intro: 'Posted',
 				out: 'intro,fb_thumb,title,text,share',
 				text: 'contentSnippet',
 				icon: 'facebook.png'
 			},
 			custom_google: {
-				id: 'http://gplusrss.com/rss/feed/535ea2b438c297f5dfa7508ba13b7c385453031f101c4',
+				id: 'http://gplusrss.com/rss/feed/f74637df3dd793064f9dd419f62acdc6586914fe2cbb2',
 				intro: 'Posted',
 				out: 'intro,thumb_gplus,text,share',
 				text: 'contentSnippet',
@@ -1508,7 +1508,7 @@ jQuery(window).load(function(){
 			},
 
 			custom_instagram: {
-				id: 'http://widget.websta.me/rss/n/davithace',
+				id: 'ttp://widget.websta.me/rss/n/davithace',
 				intro: 'Posted',
 				out: 'thumb_insta,text',
 				text: 'contentSnippet',
@@ -1516,14 +1516,14 @@ jQuery(window).load(function(){
 			},
 
 			custom_youtube: {
-				id: 'https://www.youtube.com/feeds/videos.xml?user=davidprasetyo19',
+				id: 'ttps://www.youtube.com/feeds/videos.xml?user=davidprasetyo19',
 				intro: 'Uploaded',
 				out: 'intro,thumb,title,text',
 				icon: 'youtube.png'
 			},
 
 			custom_path: {
-				id: 'https://queryfeed.net/twitter?q=path.com+from%3Adavithace&geocode=',
+				id: 'ttps://queryfeed.net/twitter?q=path.com+from%3Adavithace&geocode=',
 				intro: 'Updated',
 				out: 'intro,text',
 				icon: 'pinterest.png'
@@ -1532,7 +1532,7 @@ jQuery(window).load(function(){
 		rotate: {
 			delay: 0
 		},
-		twitterId: 'davithace',
+		twitterId: 'sbhdkitimur',
 		control: false,
 		filter: true,
 		wall: true,
